@@ -1,0 +1,44 @@
+{
+    "python.pythonPath": "/home/sanjay/cs/anaconda3/bin/python",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Default Light+",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "default",
+    "editor.hover.delay": 200,
+    "editor.rulers": [
+        120
+    ],
+    "editor.largeFileOptimizations": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
+    "latex-workshop.bind.enter.key": false,
+    "diffEditor.renderSideBySide": true,
+    "editor.minimap.enabled": false,
+    "latex-workshop.latex.autoClean.run": "onBuilt"
+}

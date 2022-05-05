@@ -1,0 +1,17 @@
+[alias]
+st = status
+co = checkout
+lgo = log --oneline
+lg = log --stat
+tree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+cm = commit -m
+cma = commit -a -m
+unstage = reset --
+amend = commit --amend
+[core]
+editor = vim
+pager = less
+[diff]
+tool = default-difftool
+[difftool "default-difftool"]
+cmd = code -n --wait --diff $LOCAL $REMOTE
